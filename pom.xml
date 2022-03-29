@@ -72,11 +72,11 @@
 
 		<!--自然言語処理のパッケージ-->
 		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>mylib</artifactId>
-			<version>1.0</version>
+			<groupId>VnCoreNLP</groupId>
+			<artifactId>VnCoreNLP</artifactId>
+			<version>1.1.1</version>
 			<scope>system</scope>
-			<systemPath>${basedir}/lib/VnCoreNLP-1.1.1.jar</systemPath>
+			<systemPath>${project.basedir}/lib/VnCoreNLP-1.1.1.jar</systemPath>
 		</dependency>
 
 	</dependencies>
