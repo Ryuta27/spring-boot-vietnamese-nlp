@@ -146,7 +146,7 @@
 							<outputDirectory>${basedir}/target/models</outputDirectory>
 							<resources>
 								<resource>
-									<directory>src/main/resources/models</directory>
+									<directory>models</directory>
 									<filtering>false</filtering>
 								</resource>
 							</resources>
