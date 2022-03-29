@@ -25,7 +25,7 @@ public class AnnotateController {
     }
 
     @PostMapping("/annotate")
-    @PreAuthorize("hasRole('USER') or hasRole('MODERATOR') or hasRole('ADMIN')")
+//    @PreAuthorize("hasRole('USER') or hasRole('MODERATOR') or hasRole('ADMIN')")
     public List<Sentence> annotate(@RequestBody AnnotateRequest request) throws IOException {
         return annotateHandler.handle(request.getText());
     }

@@ -13,7 +13,7 @@ public class AnnotateHandler {
 
     public List<Sentence> handle(String text) throws IOException {
         // "wseg", "pos", "ner", and "parse" refer to as word segmentation, POS tagging, NER and dependency parsing, respectively.
-        String[] annotators = {"wseg", "pos", "ner", "parse"};
+        String[] annotators = {"wseg", "pos"};
         VnCoreNLP pipeline = new VnCoreNLP(annotators);
 
 
