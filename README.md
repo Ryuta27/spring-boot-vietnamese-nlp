@@ -1,4 +1,6 @@
 # Spring Boot Project for Vietnamese NLP
+フロントエンド→
+https://github.com/Ryuta27/react-vietnamese-nlp
 ## 使用技術
 - ベトナム語の自然言語処理ライブラリ
 - JWT認証
