@@ -2,7 +2,7 @@
 フロントエンド→
 https://github.com/Ryuta27/react-vietnamese-nlp
 ## 使用技術
-- ベトナム語の自然言語処理ライブラリ
+- ベトナム語の自然言語処理ライブラリ→https://github.com/vncorenlp/VnCoreNLP
 - JWT認証
 - ログイン処理
 ## スクリーンショット
